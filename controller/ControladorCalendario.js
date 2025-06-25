@@ -1,7 +1,7 @@
 class ControladorCalendario {
     constructor() {
         this.diaAniversario = 25;
-        this.mesAniversario = 8; // Agosto
+        this.mesAniversario = 10; // Octubre
         this.anioAniversario = 2022;
         this.diaActual = new Date().getDate();
         this.mesActual = new Date().getMonth() + 1; // Los meses en JavaScript son 0-indexados
