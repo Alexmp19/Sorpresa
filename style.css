@@ -1,0 +1,81 @@
+/* Reset y tipografía */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Fondo con gradiente suave */
+body {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contenedor principal que ocupa todo menos el footer */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Contenedor del input y botón */
+.control-fecha {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Input de fecha */
+input[type="date"] {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Botón */
+button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #ffffff;
+  color: #1e3c72;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Footer fijo al final */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #e0e0e0;
+}
